@@ -12,10 +12,10 @@ The API listens on port 8080 by default, and can be overridden with the `PORT` e
 
 ### GET /query
 
-Fetches caller id information.
+Fetches caller ID information.
 
 **Params:**
-*number* - the number we want caller id information for.
+*number* - the number we want caller ID information for.
 
 **Example:**
 GET http://localhost:8080/query?number=%2B15556789090
@@ -37,7 +37,7 @@ GET http://localhost:8080/query?number=%2B15556789090
 
 ### POST /number
 
-Adds caller id data to the service.
+Adds caller ID data to the service.
 
 **POST Body:**
 * *name*    - contact name
