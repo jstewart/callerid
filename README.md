@@ -6,6 +6,8 @@ This service responds to requests for caller ID information. Presently, adding o
 The API listens on port 8080 by default, and can be overridden with the `PORT` environment variable.
 
 
+**Note that from the seed data, numbers in (XXX) XXX XXXX get converted to E.164 format of +1XXXXXXXXXX.**
+
 ## Endpoints
 
 ### GET /query
@@ -24,7 +26,7 @@ GET http://localhost:8080/query?number=%2B15556789090
 
 **Response:**
 
-```json
+```
 {results: [{ “name”: “Bob Barker”, “number”: “+15556789090”, “context”: “personal”}]}
 ```
 
