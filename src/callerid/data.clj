@@ -22,7 +22,7 @@
           results (map (fn [context] {:name (last context)
                              :number number
                              :context (first context)})
-               (vals n))]
+                       contexts)]
           {:results results})))
 
 (defn is-e164?
