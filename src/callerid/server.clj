@@ -1,7 +1,7 @@
 (ns callerid.server
   (:require [clojure.string :as s]
             [com.stuartsierra.component :as component]
-            [compojure.core :refer [routes defroutes GET POST]]
+            [compojure.core :refer [defroutes GET POST]]
             [compojure.handler :as handler]
             [compojure.route :as route]
             [ring.adapter.jetty :refer [run-jetty]]
